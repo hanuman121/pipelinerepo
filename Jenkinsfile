@@ -7,6 +7,7 @@ pipeline {
             build 'job3'
          }
       }
+
       stage('Running Job2') {
          steps {
             build 'job2'
@@ -18,3 +19,4 @@ pipeline {
          }
       }
    }
+}
