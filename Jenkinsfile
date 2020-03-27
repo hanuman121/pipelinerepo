@@ -4,19 +4,18 @@ pipeline {
    stages {
       stage('Running Job3') {
          steps {
-            build 'job3'
+            echo 'job3'
          }
       }
 
       stage('Running Job2') {
          steps {
-            build 'job2'
+            echo 'job2'
          }
       }
       stage('Running Job1') {
          steps {
-            build 'job1'
+            echo 'job1'
          }
       }
    }
-}
